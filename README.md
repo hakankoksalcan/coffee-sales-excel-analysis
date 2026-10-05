@@ -4,6 +4,11 @@ I put together this project to practise a small freelance reporting task: review
 
 Using Excel, I analysed 669 transactions from 1 March to 31 May 2024. I focused on a few practical questions: which drinks brought in the most revenue, how sales changed each month, and when customers were most likely to buy.
 
+## Dashboard preview
+
+![Coffee sales dashboard](dashboard.png)
+
+
 ## Files
 
 - [Excel workbook](Coffee_Sales_Analysis.xlsx): the data, quality checks, PivotTables, charts and recommendations.
