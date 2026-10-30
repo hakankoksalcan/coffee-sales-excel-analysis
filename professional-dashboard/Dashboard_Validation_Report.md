@@ -134,12 +134,12 @@ Nihai dosyanın ZIP bütünlüğü, tüm dahili ilişki hedefleri, toplam 7 yere
 
 ## 5. Fiverr galerisi ve görsel kalite
 
-Görsellerin tamamı **nihai XLSX'in gerçek LibreOffice PDF render'ından** üretildi. PDF'in yalnızca dashboard sayfası ve tam sayfa içeriği kırpıldı. Kapak ve özellik görselinde aynı gerçek görüntü ölçeklendi; grafikler yeniden çizilmedi, rakamlar değiştirilmedi. Yapay zekâ görsel üretimi kullanılmadı. Pillow yalnızca kırpma, ölçekleme, metin ve yerleşim için kullanıldı.
+Galeri 30 Ekim 2026 tarihinde yeniden tasarlandı: daha büyük kapak görüntüsü, yeni tipografi, lacivert/mint başlıklar ve açık zemin kullanıldı. **Excel dosyasının içeriği bu görsel revizyonda değiştirilmedi.** Dashboard görüntüleri nihai XLSX'in gerçek LibreOffice PDF render'ından üretildi. Kapakta dashboard'un üst başlık ve alt açıklama bandı kırpılarak tarih/içecek alanları, üç KPI ve dört grafik büyütüldü; veri alanı değiştirilmedi. Showcase, tam dashboard'u yeni bir sunum çerçevesinde gösterir. Özellik görselinde gerçek Monthly Revenue Trend grafiği, Revenue KPI kartı ve özgün `Analiz!A3:D12` PivotTable hücre aralığı kullanılır. PivotTable yakın planı yalnızca baskı ayarları değiştirilmiş geçici bir kaynak kopyasından render edildi; bu, PivotTable yenileme testi değildir. Grafikler yeniden çizilmedi, rakamlar değiştirilmedi. Yapay zekâ görsel üretimi kullanılmadı. Pillow yalnızca kırpma, ölçekleme, metin ve yerleşim için kullanıldı.
 
 | Dosya | Boyut | İçerik |
 | --- | --- | --- |
 | `Fiverr_Dashboard_Cover.png` | 1280 × 769 px | EXCEL DASHBOARDS; Charts • KPIs • PivotTables; gerçek dashboard |
-| `Fiverr_Dashboard_Showcase.png` | 2843 × 1710 px | Tam dashboard'un yüksek çözünürlüklü gerçek render'ı |
+| `Fiverr_Dashboard_Showcase.png` | 3200 × 2100 px | Tam dashboard'un çerçeveli yüksek çözünürlüklü gerçek render'ı |
 | `Fiverr_Dashboard_Features.png` | 1280 × 769 px | 669 transactions; 3 months of sales data; Excel charts; KPI reporting; PivotTables |
 
 Kapak ve özellik görseli görsel olarak açılıp incelendi. Başlıklar, KPI tutarları, sekiz içecek etiketi, aylık değerler ve ödeme yüzdeleri render üzerinde kontrol edildi. Grafik etiketlerinin yalnızca istenen değerleri göstermesi için OOXML veri etiketi bayrakları açıkça tanımlandı. Kesik başlık, çakışan etiket, fare imleci, sahte filtre düğmesi ve 3D grafik bulunmadı. Dashboard tek baskı sayfasına sığar; ekran görünümü %85 yakınlaştırmayla açılır. Excel şeridi/ekran çözünürlüğüne göre kullanıcı yakınlaştırmayı değiştirebilir.
@@ -189,6 +189,6 @@ Teslimat dosyalarının SHA-256 değerleri (bu raporun kendi hash'i döngü olu�
 | Dosya | SHA-256 |
 | --- | --- |
 | `Coffee_Sales_Dashboard_Professional.xlsx` | `001a987bda91e3979d9f32e96bfd3e07f440b001a6ed022c597b1d4706d6de97` |
-| `Fiverr_Dashboard_Cover.png` | `92167d439d38697de1fff5e8a63c36160d5b150c359c74151cbfec3f489bdd5d` |
-| `Fiverr_Dashboard_Features.png` | `1f6edcdcffbc2fa8963cca53b6a198d4e516db0d5d76b00dcd1ee5f23cdf1353` |
-| `Fiverr_Dashboard_Showcase.png` | `48dc6a71d2496712b03dfa98cd171e645b536fdb5582c9e6a8e60880e9eadea5` |
+| `Fiverr_Dashboard_Cover.png` | `cf9167b1bd0fb4c379e4dcaa6a5369b2673f94500f6430408992ee2e1f6e7cbf` |
+| `Fiverr_Dashboard_Features.png` | `910fdc1461a4a4bea102d8710ccb92ff91e7e2f0f25bc0910f1ff1fca03be4b6` |
+| `Fiverr_Dashboard_Showcase.png` | `147e209fa2f7fd5cb1bd5ab3f8fee9c49af4ec8ee43909a4495775a7aa9c777d` |
