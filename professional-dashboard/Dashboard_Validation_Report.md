@@ -106,7 +106,7 @@ openpyxl yalnızca okuma/denetim için kullanıldı. Özgün çalışma kitabı 
 
 Eski `calcChain.xml` kaldırıldı; yeni formüllerle birlikte bağımlılık zincirinin uygulama tarafından yeniden kurulması sağlandı. Bu işlem veri veya PivotTable silmez. Otomatik hesaplama, açılışta tam hesaplama ve tam hesaplamayı zorlama bayrakları ayarlandı.
 
-Beş PivotTable, `CoffeePivotSource` adlı mevcut dinamik kaynağa bağlıdır. Tanım, düzenlenebilir tablonun satır sayısına göre `Temiz_veri` kaynağını genişletir. Beş PivotTable hem nihai dosyayı openpyxl ile okurken hem LibreOffice test kopyalarını yeniden açarken bulundu. **Bu, Microsoft Excel'de Refresh All işleminin çalıştırıldığı anlamına gelmez.** Pivot yenileme/doğrudan Excel etkileşimi bu ortamda doğrulanamadı.
+Beş PivotTable, `CoffeePivotSource` adlı mevcut dinamik kaynağa bağlıdır. Tanım, düzenlenebilir tablonun satır sayısına göre `Temiz_veri` kaynağını genişletir. Beş PivotTable nihai dosyada openpyxl ile okundu; pivot tanımları ve önbelleği özgün dosyayla bayt düzeyinde eşleşti. **LibreOffice'in yeniden kaydettiği yedi geçici test kopyasında PivotTable nesneleri korunmadı (her kopyada 0).** Bu yüzden LibreOffice ile yeniden kaydedilen kopyalar teslim edilmedi. Nihai dosya, beş özgün PivotTable'ı koruyan OOXML birleştirme çıktısıdır. **Microsoft Excel'de Refresh All işlemi çalıştırılmadı.** Pivot yenileme/doğrudan Excel etkileşimi bu ortamda doğrulanamadı. LibreOffice ile açıp yeniden kaydederken PivotTable kaybı olabileceğinden düzenleme/yenileme için hedef uygulama Microsoft Excel'dir.
 
 Native slicer oluşturulmadı. Kullanılan dosya yazma araçlarıyla güvenilir slicer üretmek yerine standart Excel veri doğrulama listesi ve tarih girişleri uygulandı. Galeride slicer özelliği iddia edilmez.
 
